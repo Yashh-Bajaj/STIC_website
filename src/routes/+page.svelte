@@ -1,2 +1,7 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+    import Mentor from "./Mentor.svelte";
+</script>
+
+<main class="bg-[#454545] text-white">
+    <Mentor />
+</main>
